@@ -76,4 +76,47 @@ Steps for opening the cloned project:
 * Choose `SentiNet-Js` file
 * Select open as project option
 * Couple of seconds, dependencies will be downloaded. 
-* 
+
+Detailed Description
+============
+
++ [SentiNet](#sentinet)
++ [SentiSynSet](#sentisynset)
+
+## SentiNet
+
+Duygu sözlüğünü yüklemek için
+
+	a = SentiNet()
+
+Belirli bir alana ait duygu sözlüğünü yüklemek için
+
+	SentiNet(fileName: string = "turkish_sentinet.xml")
+	a = SentiNet("dosya.txt")
+
+Belirli bir synsete ait duygu synsetini elde etmek için
+
+	getSentiSynSet(id: string): SentiSynSet
+
+## SentiSynSet
+
+Bir SentiSynset elimizdeyken onun pozitif skorunu
+
+	getPositiveScore(): number
+
+negatif skorunu
+
+	getNegativeScore(): number
+
+polaritysini
+
+	getPolarity(): PolarityType
+
+# Cite
+
+	@inproceedings{ozcelik21,
+ 	title={{H}is{N}et: {A} {P}olarity {L}exicon based on {W}ord{N}et for {E}motion {A}nalysis},
+ 	year={2021},
+ 	author={M. Ozcelik and B. N. Arican and O. Bakay and E. Sarmis and N. B. Bayazit and O. Ergelen and O. T. Y{\i}ld{\i}z},
+ 	booktitle={Proceedings of GWC 2021}
+ 	}
