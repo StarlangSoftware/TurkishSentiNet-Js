@@ -1,0 +1,5 @@
+export * from "./dist/PolarityType"
+export * from "./dist/SentiNet"
+export * from "./dist/SentiSynSet"
+export * from "./dist/SentiLiteral"
+export * from "./dist/SentiLiteralNet"
