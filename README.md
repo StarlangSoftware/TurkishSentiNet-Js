@@ -32,7 +32,7 @@ For Developers
 
 You can also see [Python](https://github.com/starlangsoftware/TurkishSentiNet-Py), [Cython](https://github.com/starlangsoftware/TurkishSentiNet-Cy), 
 [C++](https://github.com/starlangsoftware/TurkishSentiNet-CPP), [Swift](https://github.com/starlangsoftware/TurkishSentiNet-Swift), 
-[Java](https://github.com/starlangsoftware/TurkishSentiNet-Java),
+[Java](https://github.com/starlangsoftware/TurkishSentiNet),
 or [C#](https://github.com/starlangsoftware/TurkishSentiNet-CS) repository.
 
 ## Requirements
