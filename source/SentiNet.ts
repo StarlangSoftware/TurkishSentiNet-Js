@@ -7,6 +7,10 @@ export class SentiNet {
 
     private sentiSynSetList: Map<string, SentiSynSet>
 
+    /**
+     * Reads the Xml file that contains names of sentiSynSets and their positive, negative scores.
+     * @param fileName Xml document that contains the SentiNet.
+     */
     private loadSentiNet(fileName: string) {
         var rootNode: XmlElement
         var sentiSynSetNode: XmlElement

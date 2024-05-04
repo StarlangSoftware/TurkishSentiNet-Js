@@ -7,6 +7,10 @@ export class SentiLiteralNet {
 
     private sentiLiteralList: Map<string, SentiLiteral>
 
+    /**
+     * Reads the Xml file that contains names of sentiLiterals and their positive, negative scores.
+     * @param fileName Xml document that contains the SentiLiteralNet.
+     */
     private loadSentiNet(fileName: string) {
         var rootNode: XmlElement
         var sentiSynSetNode: XmlElement
