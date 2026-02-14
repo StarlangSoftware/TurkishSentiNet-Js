@@ -21,6 +21,10 @@
         constructor(fileName = "turkish_sentinet.xml") {
             this.loadSentiNet(fileName);
         }
+        /**
+         * Reads the Xml file that contains names of sentiSynSets and their positive, negative scores.
+         * @param fileName Xml document that contains the SentiNet.
+         */
         loadSentiNet(fileName) {
             var rootNode;
             var sentiSynSetNode;

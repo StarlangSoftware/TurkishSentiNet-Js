@@ -1,6 +1,10 @@
 import { SentiLiteral } from "./SentiLiteral";
 export declare class SentiLiteralNet {
     private sentiLiteralList;
+    /**
+     * Reads the Xml file that contains names of sentiLiterals and their positive, negative scores.
+     * @param fileName Xml document that contains the SentiLiteralNet.
+     */
     private loadSentiNet;
     /**
      * Constructor of Turkish SentiNet.SentiNet. Reads the turkish_sentiliteralnet.xml file from the resources directory. For each

@@ -1,8 +1,8 @@
 import { PolarityType } from "./PolarityType";
 export declare class SentiSynSet {
-    private id;
-    private positiveScore;
-    private negativeScore;
+    private readonly id;
+    private readonly positiveScore;
+    private readonly negativeScore;
     /**
      * Constructor of SentiNet.SentiSynSet. Gets input id, positiveScore, negativeScore and sets all corresponding attributes.
      * @param id Id of the SentiNet.SentiSynSet.

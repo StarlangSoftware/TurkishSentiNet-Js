@@ -2,9 +2,9 @@ import { PolarityType } from "./PolarityType";
 
 export class SentiSynSet{
 
-    private id: string
-    private positiveScore: number
-    private negativeScore: number
+    private readonly id: string
+    private readonly positiveScore: number
+    private readonly negativeScore: number
 
     /**
      * Constructor of SentiNet.SentiSynSet. Gets input id, positiveScore, negativeScore and sets all corresponding attributes.

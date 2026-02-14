@@ -1,6 +1,10 @@
 import { SentiSynSet } from "./SentiSynSet";
 export declare class SentiNet {
     private sentiSynSetList;
+    /**
+     * Reads the Xml file that contains names of sentiSynSets and their positive, negative scores.
+     * @param fileName Xml document that contains the SentiNet.
+     */
     private loadSentiNet;
     /**
      * Constructor of Turkish SentiNet.SentiNet. Reads the turkish_sentinet.xml file from the resources directory. For each
